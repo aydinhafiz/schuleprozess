@@ -483,6 +483,55 @@ color: #3A4374;
 
 
 
+.jobs-9 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-9 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-9 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-9 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-9 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-9 p {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+letter-spacing: -0.25px;
+
+color: #3A4374;
+
+}
+
+
+
 .creator button{
     display: inline-block;
     text-decoration: none;
@@ -501,4 +550,10 @@ color: #3A4374;
     border-radius: 28px;
     cursor: pointer;
     transition: transform 1s ease-in-out;
+}
+
+@media (max-width: 775px) {
+    .box-push {
+        transform: translateY(0px);
+    }
 }
