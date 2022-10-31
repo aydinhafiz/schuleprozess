@@ -552,8 +552,18 @@ color: #3A4374;
     transition: transform 1s ease-in-out;
 }
 
+.arrow span:hover{
+    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+    border-radius: 28px;
+    transform: scale(2.04);
+}
+
+
+
+
+
 @media (max-width: 775px) {
-    .box-push {
+    .jobs {
         transform: translateY(0px);
     }
 }
