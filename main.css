@@ -50,16 +50,16 @@ body {
 }
 
 .for-example p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
@@ -101,21 +101,18 @@ color: #3A4374;
 }
 
 .for-example-1 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
-
-
-
 
 
 
@@ -154,23 +151,28 @@ color: #3A4374;
 }
 
 .for-example-2 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
-
-
-
-
+.for-example-2 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
 
 
 .jobs-3 h1 {
@@ -207,16 +209,16 @@ color: #3A4374;
 }
 
 .for-example-3 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
@@ -259,16 +261,16 @@ color: #3A4374;
 }
 
 .for-example-4 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
@@ -311,20 +313,28 @@ color: #3A4374;
 }
 
 .for-example-5 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
-
+.for-example-5 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
 
 
 
@@ -365,20 +375,28 @@ color: #3A4374;
 }
 
 .for-example-6 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
-
+.for-example-6 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
 
 
 
@@ -422,13 +440,21 @@ color: #3A4374;
     font-size: 18px;
     line-height: 26px;
     /* identical to box height */
-    
+
     letter-spacing: -0.25px;
-    
+
     color: #3A4374;
 }
 
-
+.for-example-7 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
 
 
 
@@ -466,20 +492,28 @@ color: #3A4374;
 }
 
 .for-example-8 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
-
+.for-example-8 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
 
 
 
@@ -517,22 +551,22 @@ color: #3A4374;
 }
 
 .for-example-9 p {
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-/* identical to box height */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
 
-letter-spacing: -0.25px;
+    letter-spacing: -0.25px;
 
-color: #3A4374;
+    color: #3A4374;
 
 }
 
 
 
-.creator button{
+.creator button {
     display: inline-block;
     text-decoration: none;
 
@@ -552,7 +586,7 @@ color: #3A4374;
     transition: transform 1s ease-in-out;
 }
 
-.arrow span:hover{
+.arrow span:hover {
     box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
     border-radius: 28px;
     transform: scale(2.04);
