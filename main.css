@@ -1,25 +1,32 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Kumbh Sans', sans-serif;
-    background-image: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    font-family: 'Jost', sans-serif;
+    background: #F7F8FD;
+}
 
+.container {
+    max-width: 825px;
+    margin: 0 auto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+
 }
 
 .header button {
     display: inline-block;
     text-decoration: none;
+
     justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
@@ -40,79 +47,66 @@ body {
     transition: 3s;
 }
 
-.container {
+.header span {
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.jobs {
     display: flex;
-    width: 920px;
-    height: 509px;
-    margin: 129px auto;
-    background: #FFFFFF;
-    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
-    border-radius: 23px;
-    padding: 65px 0px;
-}
-
-.img-box img {
-    width: 450px;
-}
-
-.faqs-box {
-    width: 100%;
-    padding-left: 88px;
-    padding-right: 110px;
-}
-
-.faq-heading {
-    max-width: 110px;
-}
-
-.faq {
-    border-bottom: 1px solid #E8E8EA;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.question {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 11px;
-    cursor: pointer;
 }
 
-.question-sentence {
-    font-family: 'Kumbh Sans';
+.jobs h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+    padding: 50px 20px;
+}
+
+.job h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.for-example img {
+    max-width: 300px;
+}
+
+.for-example span {
+    display: inline-block;
+    font-family: 'Jost';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #4B4C5F;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
 }
 
-.question-answer {
-    font-family: 'Kumbh Sans';
+.for-example p {
+    font-family: 'Jost';
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    color: #787887;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
 }
-
-.question-answer-hidden {
-    display: none;
-}
-
-.question img {
-    width: 8px;
-    height: 4px;
-}
-
-.question img.rotate {
-    transform: rotate(180deg);
-}
-
-
-
-
 
 .creator a {
     display: inline-block;
@@ -139,3 +133,513 @@ body {
     transform: scale(0.9);
     transition: 3s;
 }
+
+.arrow span:hover {
+    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+    border-radius: 28px;
+    transform: scale(1.5);
+    transition: 3s;
+}
+
+.zoom b:hover {
+    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+    border-radius: 28px;
+    transform: scale(1.5);
+    transition: 3s;
+}
+
+@media (max-width: 775px) {
+    .jobs {
+        transform: translateY(0px);
+    }
+}
+
+
+
+/* .jobs-1 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-1 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-1 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-1 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-1 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-1 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+
+
+
+.jobs-2 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-2 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-2 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-2 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-2 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-2 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+.for-example-2 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
+
+
+.jobs-3 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-3 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-3 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-3 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-3 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-3 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+
+
+
+
+
+.jobs-4 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-4 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-4 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-4 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-4 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-4 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+
+
+
+
+
+.jobs-5 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-5 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-5 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-5 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-5 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-5 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+.for-example-5 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
+
+
+
+
+
+
+.jobs-6 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-6 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-6 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-6 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-6 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-6 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+.for-example-6 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
+
+
+
+.jobs-7 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-7 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-7 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-7 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-7 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-7 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+}
+
+.for-example-7 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
+
+
+
+.jobs-8 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-8 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-8 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-8 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-8 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-8 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+}
+
+.for-example-8 a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: black;
+}
+
+
+
+.jobs-9 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job-9 {
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 825px;
+}
+
+.job-9 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.for-example-9 img {
+    max-width: 150px;
+    margin-left: 285px;
+}
+
+.for-example-9 span {
+    display: inline-block;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+
+.for-example-9 p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+
+    letter-spacing: -0.25px;
+
+    color: #3A4374;
+
+} */
