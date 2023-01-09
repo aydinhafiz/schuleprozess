@@ -6,136 +6,117 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background: #FFFFFF;
 
 }
 
-.header {
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.nav-bar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.header button {
-    display: inline-block;
-    text-decoration: none;
-    justify-content: flex-start;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
-    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
-    border-radius: 6px;
-    border: none;
-    padding: 14px 41px;
-    border-radius: 28px;
-    cursor: pointer;
-    transition: transform 1s ease-in-out;
+.img-logo {
+    width: 150px;
 }
 
-.header button:hover {
-    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
-    border-radius: 28px;
-    transform: scale(0.9);
-    transition: 3s;
-}
-
-.container {
+.days {
     display: flex;
-    width: 920px;
-    height: 509px;
-    margin: 129px auto;
-    background: #FFFFFF;
-    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
-    border-radius: 23px;
-    padding: 65px 0px;
-}
-
-.img-box img {
-    width: 450px;
-}
-
-.faqs-box {
-    width: 100%;
-    padding-left: 88px;
-    padding-right: 110px;
-}
-
-.faq-heading {
-    max-width: 110px;
-}
-
-.faq {
-    border-bottom: 1px solid #E8E8EA;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 11px;
-    cursor: pointer;
-}
-
-.question-sentence {
-    font-family: 'Kumbh Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #4B4C5F;
-}
-
-.question-answer {
-    font-family: 'Kumbh Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    color: #787887;
-}
-
-.question-answer-hidden {
-    display: none;
-}
-
-.question img {
-    width: 8px;
-    height: 4px;
-}
-
-.question img.rotate {
-    transform: rotate(180deg);
-}
-
-
-
-
-
-.creator a {
-    display: inline-block;
-    text-decoration: none;
-    justify-content: flex-start;
-    margin-top: 80px;
+    max-width: 500px;
+    margin-left: auto;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    padding: 20px 50px;
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
-    background: #bb3703;
-    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
-    border: none;
-    padding: 14px 41px;
-    border-radius: 28px;
-    cursor: pointer;
-    transition: transform 1s ease-in-out;
 }
 
-.creator a:hover {
-    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
-    border-radius: 28px;
-    transform: scale(0.9);
-    transition: 3s;
+.day-1 h2 {
+    margin-bottom: 15px;
+}
+
+.day-1 span {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.days-1 {
+    display: flex;
+    max-width: 500px;
+    margin-left: auto;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.day-2 h2 {
+    margin-bottom: 15px;
+}
+
+.day-2 span {
+    display: inline-block;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.content-2 {
+    display: flex;
+}
+
+.images-about-day-2 {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.politiker {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.content-3 {
+    display: flex;
+}
+
+.days-2 {
+    display: flex;
+    max-width: 500px;
+    margin-left: auto;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    padding: 20px 50px;
+}
+
+.day-3 h2 {
+    margin-bottom: 15px;
+}
+
+.day-3 span {
+    display: inline-block;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.videos-about-day-2 {
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.videos-about-day-2 video {
+    width: 300px;
 }
